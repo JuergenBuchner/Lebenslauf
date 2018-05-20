@@ -1,0 +1,59 @@
+\documentclass[11pt, a4paper]{moderncv}
+\usepackage[ngerman]{babel}   %Paket für deutsche Spracheinstellungen.
+\usepackage[utf8]{inputenc}  %Das Dokument soll UTF-8-Format nutzen (wegen deutschen Umlauten).
+\usepackage[left=2.4cm, right=1.0cm, top=1.7cm, bottom=2.0cm]{geometry}  %Seitenrand anpassen.
+ %\usepackage{fontawesome}  %Paket für schönere Symbole bei den persönlichen Daten.
+ 
+\moderncvtheme[blue]{classic}
+ %\moderncvicons{awesome}
+ 
+ %Die persönlichen Daten:
+\name{Jürgen}{Buchner}
+\title{Lebenslauf}
+\address{Meine-Straße 1}{12345 Mein-Wohnort}
+\phone[mobile]{0170\,123456}
+\phone[fixed]{01234\,123456}
+\phone[fax]{01234\,012345}
+\email{meine-email@address.com}
+\homepage{www.meine-homepage.de}
+\social[twitter][www.twitter.com]{Twitter-Name}
+\social[linkedin][www.linkedin.com]{LinkedIn-Name}
+\social[github][www.github.com]{GitHub-Name}
+\extrainfo{Hier können extra Informaitonen stehen.}
+\photo[3cm]{foto}  %Die Dateiendung wird weggelassen.
+\quote{"Hier kann mein Lebensmotto oder ein Zitat stehen."}
+ 
+ 
+\begin{document}
+  \makecvtitle
+  
+  \section{Persönliche Daten}
+  \cvline{Geburtstag:}{01.04.1990}
+  \cvline{Geburtsort:}{Geburtsort}
+ 
+  \section{Schulausbildung}
+  \cventry{1991--1992}{Realschule}{Schulname}{Schulort}{}{Realschulbaschluss: 1,0}
+  \cventry{1992--1993}{Gymnasium}{Schulname}{Schulort}{Leistungsfächer: Fach1 und Fach2}{Abitur: 1,0}
+  
+  \section{Publikationen}
+  \cvlistitem{Meine 1. Publikation.}
+  \cvlistitem{Noch eine Publikation.}
+  
+  \section{EDV-Kenntnisse}
+  \cvcomputer{Office}{sehr gute Kenntnisse bei Word}{GIMP}{hervorragende Kenntnisse}
+  \subsection{Programmiersprachen}
+  \cvcomputer{Sprache1}{hervorragende Kenntnisse}{Sprache2}{VHS-Kurse besucht}
+  \cvcomputer{Sprache3}{Grundkenntnisse vorhanden}{Sprache4}{gute Kenntnisse}
+  
+  \section{Sprachkenntnisse}
+  \cvlanguage{Sprache1}{Muttersprache}{}
+  \cvlanguage{Sprache2}{Grundkenntnisse}{Schulunterricht von der 2. bis zur 10. Klasse.}
+  
+  \section{Hobbys und Interessen}
+  \cvlistdoubleitem{Mein 1. Hobby}{Mein anderes Hobby}
+  \cvlistdoubleitem{Noch ein Hobby von mir}{Ein weiteres Hobby}
+  
+  \vfill  %Platz bis Seitenende auffüllen.
+  Mein Name\\
+  Ort, \today
+\end{document}
