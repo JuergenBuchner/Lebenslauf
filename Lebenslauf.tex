@@ -6,54 +6,109 @@
  
 \moderncvtheme[blue]{classic}
  %\moderncvicons{awesome}
+\moderncvicons{awesome}
+ \newlength\mylen
+ \addtolength\mylen{\linewidth}
+ \addtolength\mylen{-\hintscolumnwidth}
+ \addtolength\mylen{-\separatorcolumnwidth}
+ \addtolength\mylen{-3mm}
+ 
+% \renewcommand*{\listitemsymbol}{\hspace{2em}\labelitemi~}
+% \newcommand\mybitem[1]{%
+% 	\parbox[t]{3mm}{\textbullet}\parbox[t]{\mylen}{#1}}
+ \newcommand\mybitem[1]{%
+ 	\parbox[t]{3mm}{\textbullet}\parbox[t]{10cm}{#1}\\[1.6mm]}
  
  %Die persönlichen Daten:
 \name{Jürgen}{Buchner}
 \title{Lebenslauf}
-\address{Meine-Straße 1}{12345 Mein-Wohnort}
-\phone[mobile]{0170\,123456}
-\phone[fixed]{01234\,123456}
-\phone[fax]{01234\,012345}
-\email{meine-email@address.com}
-\homepage{www.meine-homepage.de}
-\social[twitter][www.twitter.com]{Twitter-Name}
-\social[linkedin][www.linkedin.com]{LinkedIn-Name}
-\social[github][www.github.com]{GitHub-Name}
-\extrainfo{Hier können extra Informaitonen stehen.}
+\address{Kaiserschützenstraße 8}{4690 Schwanenstadt}
+\phone[mobile]{+43\,699\,17952841}
+\email{juergenbuchner@gmail.com}
+%\homepage{www.meine-homepage.de}
+%\social[twitter][www.twitter.com]{Twitter-Name}
+%\social[linkedin][www.linkedin.com]{LinkedIn-Name}
+\extrainfo{\httplink[\faXingSquare~Juergen\_Buchner9]{xing.de/profile/Juergen_Buchner9}}
+\social[github][www.github.com/JuergenBuchner]{JuergenBuchner}
+%\extrainfo{Hier können extra Informaitonen stehen.}
 \photo[3cm]{foto}  %Die Dateiendung wird weggelassen.
-\quote{"Hier kann mein Lebensmotto oder ein Zitat stehen."}
- 
+%\quote{"Hier kann mein Lebensmotto oder ein Zitat stehen."}
  
 \begin{document}
   \makecvtitle
   
   \section{Persönliche Daten}
-  \cvline{Geburtstag:}{01.04.1990}
-  \cvline{Geburtsort:}{Geburtsort}
+  \cvline{Geburtstag:}{20.10.1990}
+  \cvline{Geburtsort:}{Gmunden}
  
-  \section{Schulausbildung}
-  \cventry{1991--1992}{Realschule}{Schulname}{Schulort}{}{Realschulbaschluss: 1,0}
-  \cventry{1992--1993}{Gymnasium}{Schulname}{Schulort}{Leistungsfächer: Fach1 und Fach2}{Abitur: 1,0}
+  \section{Studium/Ausbildung}
+  \cventry{10/2016-- 09/2018}{Master Studium Automatisierungstechnik}{FH OÖ}{Wels}{}{Schwerpunkt: Industrielle Informatik (INIF)}
+  \cventry{10/2013-- 09/2016}{Bachelor Studium Automatisierungstechnik}{FH OÖ}{Wels}{}{Schwerpunkt: Industrielle Informatik (INIF)}
+  \cventry{10/2013}{Lehre mit Matura}{HTBLA}{Vöcklabruck}{}{Fachbereich: Maschinenbau}
+  \cventry{09/2016--05/2010}{Lehre zum Mechatroniker}{Inocon Technologie GmbH}{Attnang-Puchheim}{}{Tätigkeitsbereich: Sondermaschinenbau}
+%  \cventry{1992--1993}{Gymnasium}{Schulname}{Schulort}{Leistungsfächer: Fach1 und Fach2}{Abitur: 1,0}
   
-  \section{Publikationen}
-  \cvlistitem{Meine 1. Publikation.}
-  \cvlistitem{Noch eine Publikation.}
-  
-  \section{EDV-Kenntnisse}
-  \cvcomputer{Office}{sehr gute Kenntnisse bei Word}{GIMP}{hervorragende Kenntnisse}
+%  \section{Publikationen}
+%  \cvlistitem{Meine 1. Publikation.}
+%  \cvlistitem{Noch eine Publikation.}
+  \section{Beruflicher Werdegang}
+  \cventry{10/2017-- 01/2018}{Masterprojekt 2}{TGW Logistics Group}{Wels}{}{Aufgabenstellung: Entwicklung einer Datenaufzeichnungssoftware für Condition Monitoring bei
+  	Regalbediengeräten}
+  \cventry{03/2017-- 06/2017}{Masterprojekt 1}{FH OÖ}{Wels}{}{Aufgabenstellung: : Aufschwingen eines Doppelpendels 
+  	(flachheitsbasierte Regelung und Zweipunkt-Grenzwertproblem eines nichtlinearen unteraktuierten 
+  	Systems)
+  }
+  \cventry{02/2011-- 09/2013}{Monteur im Sondermaschinenbaue}{Inocon Technologie GmbH}{Attnang-Puchheim}{}{Aufgaben: 
+  	\begin{itemize}
+  		\setlength{\itemindent}{.5cm}
+  \item{Projektleitung mech. Montage von Sondermaschinen}
+  \item{Fertigen von Schweißkonstruktionen }
+  \item{Aufbau von mechanischen Komponenten } 
+  \item{Zusammenbau von voll automatisierten Anlagen} 
+  \item{Inbetriebnahme von Pneumatik Systemen} 
+  \item{Montage und Service im In- und Ausland}
+  	\end{itemize}
+	}
+
+  \section{Zivildienst}
+  \cventry{05/2010--01/2011}{Zivildienst}{Lebenshilfe OÖ - Tagesheimstätte}{Gmunden}{}{}
+  \section{Technische Kenntnisse}
+  \cvcomputer{\textsc{Matlab} \& Simulink}{sehr gute Kenntnisse}{Mathematica}{gute Kenntnisse}
+  \cvcomputer{Microsoft Office}{gute Kenntnisse}{TeXstudio}{gute Kenntnisse}
+  \cvcomputer{Visual Studio IDE}{gute Kenntnisse}{Spyder IDE}{gute Kenntnisse}
+  \cvcomputer{GitHub}{gute Kenntnisse}{SVN}{gute Kenntnisse}
+  \cvcomputer{NI Vision Assistant}{Grundkenntnisse vorhanden}{}{}
   \subsection{Programmiersprachen}
-  \cvcomputer{Sprache1}{hervorragende Kenntnisse}{Sprache2}{VHS-Kurse besucht}
-  \cvcomputer{Sprache3}{Grundkenntnisse vorhanden}{Sprache4}{gute Kenntnisse}
+  \cvcomputer{C\#}{sehr gute Kenntnisse}{Java}{gute Kenntnisse}
+  \cvcomputer{Python}{gute Kenntnisse}{Javascript}{gute Kenntnisse}
+  \cvcomputer{Assembler, C}{Grundkenntnisse vorhanden}{Sprachen nach IEC 61131-3}{Grundkenntnisse vorhanden}
   
   \section{Sprachkenntnisse}
-  \cvlanguage{Sprache1}{Muttersprache}{}
-  \cvlanguage{Sprache2}{Grundkenntnisse}{Schulunterricht von der 2. bis zur 10. Klasse.}
-  
+  \cvlanguage{Deutsch}{Muttersprache}{}
+  \cvlanguage{Englisch}{fließend in Wort und Schrift}{}{\begin{itemize}
+  		\setlength{\itemindent}{4cm}
+  		\item Schulunterricht und FH Lehrveranstaltungen
+  		\item Auslandssemester in New York, USA
+  	\end{itemize}
+  }
+  \section{Auszeichnungen}
+  \cventry{10/2013--09/2018}{Jahrgangssprecher}{FH OÖ}{Wels}{}{
+  	\begin{itemize}
+  		\setlength{\itemindent}{.5cm}
+  	\item Organisation von Prüfungsterminen und Terminverschiebungen
+  	\item Teilnahme an LVA Evaluierungsgesprächen mit dem Dekan
+  	\item Teilnahme an Seminaren zur Verbesserung des Automatisierungstechnik Curriculums
+	\end{itemize}
+	}
+  \section{Auszeichnungen}
+  \cventry{06/2015}{Marshall Plan Scholarship}{Austrian Marshall Plan Foundation}{Wien}{}{}
+  \cventry{02/2017}{INNOVATIONaward}{FH OÖ}{Wels}{}{Kategorie: „Bestes Fächerübergreifendes Studentenprojekt“}
   \section{Hobbys und Interessen}
-  \cvlistdoubleitem{Mein 1. Hobby}{Mein anderes Hobby}
-  \cvlistdoubleitem{Noch ein Hobby von mir}{Ein weiteres Hobby}
+  \cvlistdoubleitem{Wandern}{Klettern}
+  \cvlistdoubleitem{Wakeboarden}{Snowboarden}
+  \cvlistdoubleitem{Volleyball}{Tischtennis}
   
   \vfill  %Platz bis Seitenende auffüllen.
-  Mein Name\\
-  Ort, \today
+  Jürgen Buchner\\
+  Schwanenstadt, \today
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.7.23)  20 MAY 2018 11:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.7.23)  20 MAY 2018 17:08
 entering extended mode
 **./Lebenslauf.tex
 (Lebenslauf.tex
@@ -1102,10 +1102,23 @@ LaTeX Font Info:    Try loading font information for U+mvs on input line 46.
 \cvitemwithcommentskilllength=\skip78
 \cvitemwithcommentcommentlength=\skip79
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
+(C:\Users\juerg\AppData\Roaming\MiKTeX\2.9\tex\latex\moderncv\moderncviconsawes
+ome.sty
+Package: moderncviconsawesome 2015/07/28 v2.0.0 modern curriculum vitae and let
+ter icons: awesome
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+(C:\Users\juerg\AppData\Roaming\MiKTeX\2.9\tex\latex\fontawesome\fontawesome.st
+y
+Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
+
+(C:\Users\juerg\AppData\Roaming\MiKTeX\2.9\tex\latex\fontawesome\fontawesomesym
+bols-generic.tex)
+(C:\Users\juerg\AppData\Roaming\MiKTeX\2.9\tex\latex\fontawesome\fontawesomesym
+bols-pdftex.tex)))
+\mylen=\skip80
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
+ ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
@@ -1212,32 +1225,32 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip80
+\Hy@SectionHShift=\skip81
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 27.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 27.
+Package hyperref Info: Option `breaklinks' set `true' on input line 37.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 37.
 
-No file Lebenslauf.aux.
+(Lebenslauf.aux)
 \openout1 = `Lebenslauf.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 27.
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 37.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (C:\Users\juerg\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
@@ -1266,7 +1279,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Info: Redefining \microtypecontext on input line 27.
+LaTeX Info: Redefining \microtypecontext on input line 37.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1317,7 +1330,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box55
-Package hyperref Info: Link coloring OFF on input line 27.
+Package hyperref Info: Link coloring OFF on input line 37.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1327,145 +1340,182 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count286
 )
-LaTeX Info: Redefining \ref on input line 27.
-LaTeX Info: Redefining \pageref on input line 27.
-LaTeX Info: Redefining \nameref on input line 27.
+LaTeX Info: Redefining \ref on input line 37.
+LaTeX Info: Redefining \pageref on input line 37.
+LaTeX Info: Redefining \nameref on input line 37.
+
+(Lebenslauf.out) (Lebenslauf.out)
 \@outlinefile=\write4
 \openout4 = `Lebenslauf.out'.
 
 \makecvheaddetailsbox=\box56
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 28.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 38.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 28.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 38.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 28.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 38.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 28.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 38.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 28.
+(Font)              <10> on input line 38.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 28.
+(Font)              <7> on input line 38.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 28.
+(Font)              <5> on input line 38.
+LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
+line 38.
 
-(C:\Users\juerg\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-mvs.cfg
-File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
+(C:\Users\juerg\AppData\Roaming\MiKTeX\2.9\tex\latex\fontawesome\ufontawesometw
+o.fd
+File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
+
+LaTeX Font Warning: Font shape `U/fontawesometwo/m/sl' undefined
+(Font)              using `U/fontawesometwo/m/n' instead on input line 38.
+
+LaTeX Font Info:    Try loading font information for U+fontawesomethree on inpu
+t line 38.
+
+(C:\Users\juerg\AppData\Roaming\MiKTeX\2.9\tex\latex\fontawesome\ufontawesometh
+ree.fd
+File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
+)
+
+LaTeX Font Warning: Font shape `U/fontawesomethree/m/sl' undefined
+(Font)              using `U/fontawesomethree/m/n' instead on input line 38.
+
 \makecvheadpicturebox=\box57
-
-
-! LaTeX Error: File `foto' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28   \makecvtitle
-                   
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-\makecvheaddetailswidth=\skip81
-\makecvheadpicturewidth=\skip82
+<foto.jpg, id=49, 586.89262pt x 880.4895pt>
+File: foto.jpg Graphic file (type jpg)
+ <use foto.jpg>
+Package pdftex.def Info: foto.jpg used on input line 38.
+(pdftex.def)             Requested size: 85.35826pt x 128.05061pt.
+\makecvheaddetailswidth=\skip82
+\makecvheadpicturewidth=\skip83
 \makecvheadnamebox=\box58
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 40.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 40.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 28.
+(Font)              <10.95> on input line 40.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 28.
+(Font)              <8> on input line 40.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 28.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 30.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 30.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 34.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 34.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 38.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 38.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 42.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 42.
+(Font)              <6> on input line 40.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 44.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 44.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 73.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 73.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 59.
+(babel)             in language  on input line 75.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 59.
+(babel)             in language  on input line 75.
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/lmr/m/sc/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 59.
+(babel)             in language  on input line 79.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 59.
+(babel)             in language  on input line 79.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 79.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 79.
 [1
 
-{C:/Users/juerg/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
+{C:/Users/juerg/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./foto.jpg>
+]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 81.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 81.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 86.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 86.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 94.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 94.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 103.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 103.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 106.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 106.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 114.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 114.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 114.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 114.
+ [2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 114.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
+ (Lebenslauf.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 114.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 114.
+Package rerunfilecheck Info: File `Lebenslauf.out' has not changed.
+(rerunfilecheck)             Checksum: FE9EEDEA7A6D7F560D5F4C40A0B7E647;1330.
 
-(Lebenslauf.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
 
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Warning: File `Lebenslauf.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Lebenslauf.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  CF068F79278E1C309FA00297932F4482;905.
  ) 
 Here is how much of TeX's memory you used:
- 30013 strings out of 493333
- 557980 string characters out of 3139194
- 666870 words of memory out of 3000000
- 33089 multiletter control sequences out of 15000+200000
- 597414 words of font info for 78 fonts, out of 3000000 for 9000
+ 31488 strings out of 493333
+ 577993 string characters out of 3139194
+ 651027 words of memory out of 3000000
+ 34541 multiletter control sequences out of 15000+200000
+ 600492 words of font info for 82 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,11n,60p,10435b,774s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr
-12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/lm/lmro10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmro12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro17.pfb>
-<C:/Users/juerg/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/marvosym/marvosym
-.pfb>
-Output written on Lebenslauf.pdf (1 page, 234791 bytes).
+ 69i,13n,58p,10435b,390s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/juerg/App
+Data/Roaming/MiKTeX/2.9/fonts/enc/dvips/fontawesome/fontawesomethree.enc}{C:/Us
+ers/juerg/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/fontawesome/fontawesometwo
+.enc}<C:/Users/juerg/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/fontawesome/
+FontAwesome.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
+r17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/lm/lmro17.pfb>
+Output written on Lebenslauf.pdf (2 pages, 3343277 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
- 9 named destinations out of 1000 (max. 500000)
- 23565 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 103 PDF objects out of 1000 (max. 8388607)
+ 13 named destinations out of 1000 (max. 500000)
+ 24162 words of extra memory for PDF output out of 24883 (max. 10000000)
 
