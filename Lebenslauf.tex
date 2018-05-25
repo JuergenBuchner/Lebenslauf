@@ -12,7 +12,29 @@
  \addtolength\mylen{-\hintscolumnwidth}
  \addtolength\mylen{-\separatorcolumnwidth}
  \addtolength\mylen{-3mm}
- 
+%\definecolor{mycolor}{RGB}{255,51,76}
+\definecolor{frontColor}{rgb}{0.22,0.45,0.70}% light blue
+\definecolor{backColor}{RGB}{200,200,200}% grey
+\usepackage{tikz}
+\newcommand{\grade}[1]{%
+	\begin{tikzpicture}
+	\clip (1em-.4em,-.35em) rectangle (5em +.5em ,1em);
+	\foreach \x in {1,2,...,5}{
+		%\draw (\x em,0) circle (.35em);
+		\path[{fill=backColor}] (\x em,0) circle (.35em);
+	}
+	\begin{scope}
+	\clip (1em-.4em,-.35em) rectangle (#1em +.5em ,1em);
+	\foreach \x in {1,2,...,5}{
+		\path[{fill=frontColor}] (\x em,0) circle (.35em);
+	}
+	\end{scope}
+	
+	\end{tikzpicture}%
+}
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \newcommand\tab[1][0.1cm]{\hspace*{#1}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % \renewcommand*{\listitemsymbol}{\hspace{2em}\labelitemi~}
 % \newcommand\mybitem[1]{%
 % 	\parbox[t]{3mm}{\textbullet}\parbox[t]{\mylen}{#1}}
@@ -52,13 +74,13 @@
 %  \cvlistitem{Meine 1. Publikation.}
 %  \cvlistitem{Noch eine Publikation.}
   \section{Beruflicher Werdegang}
-  \cventry{10/2017-- 01/2018}{Masterprojekt 2}{TGW Logistics Group}{Wels}{}{Aufgabenstellung: Entwicklung einer Datenaufzeichnungssoftware für Condition Monitoring bei
+  \cventry{10/2017-- 01/2018}{Praktikum: Masterprojekt 2}{TGW Logistics Group}{Wels}{}{Aufgabenstellung: Entwicklung einer Datenaufzeichnungssoftware für Condition Monitoring bei
   	Regalbediengeräten}
-  \cventry{03/2017-- 06/2017}{Masterprojekt 1}{FH OÖ}{Wels}{}{Aufgabenstellung: : Aufschwingen eines Doppelpendels 
+  \cventry{03/2017-- 06/2017}{Praktikum: Masterprojekt 1}{FH OÖ}{Wels}{}{Aufgabenstellung: : Aufschwingen eines Doppelpendels 
   	(flachheitsbasierte Regelung und Zweipunkt-Grenzwertproblem eines nichtlinearen unteraktuierten 
   	Systems)
   }
-  \cventry{02/2011-- 09/2013}{Monteur im Sondermaschinenbaue}{Inocon Technologie GmbH}{Attnang-Puchheim}{}{Aufgaben: 
+  \cventry{02/2011-- 09/2013}{Vollzeit: Monteur im Sondermaschinenbau}{Inocon Technologie GmbH}{Attnang-Puchheim}{}{Aufgaben: 
   	\begin{itemize}
   		\setlength{\itemindent}{.5cm}
   \item{Projektleitung mech. Montage von Sondermaschinen}
@@ -73,19 +95,20 @@
   \section{Zivildienst}
   \cventry{05/2010--01/2011}{Zivildienst}{Lebenshilfe OÖ - Tagesheimstätte}{Gmunden}{}{}
   \section{Technische Kenntnisse}
-  \cvcomputer{\textsc{Matlab} \& Simulink}{sehr gute Kenntnisse}{Mathematica}{gute Kenntnisse}
-  \cvcomputer{Microsoft Office}{gute Kenntnisse}{TeXstudio}{gute Kenntnisse}
-  \cvcomputer{Visual Studio IDE}{gute Kenntnisse}{Spyder IDE}{gute Kenntnisse}
-  \cvcomputer{GitHub}{gute Kenntnisse}{SVN}{gute Kenntnisse}
-  \cvcomputer{NI Vision Assistant}{Grundkenntnisse vorhanden}{}{}
+  \cvcomputer{\textsc{Matlab} \& Simulink}{\grade{4} \tab \textit{sehr gute Kenntnisse}}{Mathematica}{\grade{3} \tab \textit{gute Kenntnisse}}
+  \cvcomputer{Microsoft Office}{\grade{3} \tab \textit{gute Kenntnisse}}{TeXstudio}{\grade{3} \tab \textit{gute Kenntnisse}}
+  \cvcomputer{Visual Studio IDE}{\grade{3} \tab \textit{gute Kenntnisse}}{Spyder IDE}{\grade{3} \tab \textit{gute Kenntnisse}}
+  \cvcomputer{GitHub}{\grade{2} \tab \textit{Grundkenntnisse}}{SVN}{\grade{1} \tab \textit{Grundkenntnisse}}
+  \cvcomputer{NI Vision Assistant}{\grade{1} \tab \textit{Grundkenntnisse}}{}{}
   \subsection{Programmiersprachen}
-  \cvcomputer{C\#}{sehr gute Kenntnisse}{Java}{gute Kenntnisse}
-  \cvcomputer{Python}{gute Kenntnisse}{Javascript}{gute Kenntnisse}
-  \cvcomputer{Assembler, C}{Grundkenntnisse vorhanden}{Sprachen nach IEC 61131-3}{Grundkenntnisse vorhanden}
+  \cvcomputer{C\#}{\grade{4} \tab \textit{sehr gute Kenntnisse}}{Java}{\grade{3} \tab \textit{gute Kenntnisse}}
+  \cvcomputer{Python}{\grade{3} \tab \textit{gute Kenntnisse}}{Javascript}{\grade{3} \tab \textit{gute Kenntnisse}}
+  \cvcomputer{Assembler, C}{\grade{1} \tab \textit{Grundkenntnisse}}{Sprachen nach IEC 61131-3}{\grade{2} \tab \textit{Grundkenntnisse}}
   
   \section{Sprachkenntnisse}
-  \cvlanguage{Deutsch}{Muttersprache}{}
-  \cvlanguage{Englisch}{fließend in Wort und Schrift}{}{\begin{itemize}
+%  \cvlanguage{Deutsch}{Muttersprache}{}
+  \cvlanguage{Deutsch}{\grade{5} \tab \textit{Muttersprache}}{}
+  \cvlanguage{Englisch}{\grade{4}\tab \textit{fließend in Wort und Schrift}}{}{\begin{itemize}
   		\setlength{\itemindent}{4cm}
   		\item Schulunterricht und FH Lehrveranstaltungen
   		\item Auslandssemester in New York, USA
@@ -97,7 +120,7 @@
   		\setlength{\itemindent}{.5cm}
   	\item Organisation von Prüfungsterminen und Terminverschiebungen
   	\item Teilnahme an LVA Evaluierungsgesprächen mit dem Dekan
-  	\item Teilnahme an Seminaren zur Verbesserung des Automatisierungstechnik Curriculums
+  	\item Teilnahme an Seminaren zur Verbesserung des Automatisierungstechnik Curriculums mit Professoren und Interessensvertreter aus der Wirtschaft
 	\end{itemize}
 	}
   \section{Auszeichnungen}
