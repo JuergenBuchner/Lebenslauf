@@ -4,7 +4,9 @@
 \usepackage[left=2.4cm, right=1.0cm, top=1.7cm, bottom=2.0cm]{geometry}  %Seitenrand anpassen.
  %\usepackage{fontawesome}  %Paket für schönere Symbole bei den persönlichen Daten.
  
-\moderncvtheme[blue]{classic}
+\moderncvtheme[blue]{casual}
+% casual (default), classic, oldstyle, banking and fancy
+%and 8 color schemes:    black,blue,burgundy,green,grey,orange, purple, and red.
  %\moderncvicons{awesome}
 \moderncvicons{awesome}
  \newlength\mylen
@@ -51,7 +53,7 @@
 %\social[twitter][www.twitter.com]{Twitter-Name}
 %\social[linkedin][www.linkedin.com]{LinkedIn-Name}
 \extrainfo{\httplink[\faXingSquare~Juergen\_Buchner9]{xing.de/profile/Juergen_Buchner9}}
-\social[github][www.github.com/JuergenBuchner]{JuergenBuchner}
+%\social[github][www.github.com/JuergenBuchner]{JuergenBuchner}
 %\extrainfo{Hier können extra Informaitonen stehen.}
 \photo[3cm]{foto}  %Die Dateiendung wird weggelassen.
 %\quote{"Hier kann mein Lebensmotto oder ein Zitat stehen."}
@@ -81,12 +83,12 @@
 %  \cvlistitem{Meine 1. Publikation.}
 %  \cvlistitem{Noch eine Publikation.}
   \section{Beruflicher Werdegang}
-    \cventry{03/2018 -- 07/2018}{Berufspraktikum}{TGW Logistics Group}{Wels}{}{Aufgabenstellung: Entwicklung eines Condition-Based Maintenance Systems bei Regalbediengeräten}
-  \cventry{10/2017 -- 01/2018}{Berufspraktikum}{TGW Logistics Group}{Wels}{}{Aufgabenstellung: Entwicklung einer Datenaufzeichnungssoftware für Condition Monitoring bei Regalbediengeräten}
-  \cventry{03/2017 -- 06/2017}{Berufspraktikum}{FH OÖ}{Wels}{}{Aufgabenstellung: Aufschwingen eines Doppelpendels 
+    \cventry{03/2018 -- 07/2018}{Berufspraktikum}{TGW Logistics Group}{Wels}{}{Entwicklung eines Condition-Based Maintenance Systems für Regalbediengeräte}
+  \cventry{10/2017 -- 01/2018}{Berufspraktikum}{TGW Logistics Group}{Wels}{}{Entwicklung einer Datenaufzeichnungssoftware für Regalbediengeräte}
+  \cventry{03/2017 -- 06/2017}{Berufspraktikum}{FH OÖ}{Wels}{}{Aufschwingen eines Doppelpendels 
   	(flachheitsbasierte Regelung und Zweipunkt-Grenzwertproblem eines nichtlinearen unteraktuierten Systems)}
-  \cventry{04/2016 -- 06/2016}{Berufspraktikum}{FH OÖ}{Wels}{}{Aufgabenstellung: Semi-Autonome Detektion und Manipulation von Geschicklichkeitsaufgaben bei Rettungsrobotern}
-  \cventry{02/2011 -- 09/2013}{Vollzeit: Monteur im Sondermaschinenbau}{Inocon Technologie GmbH}{Attnang-Puchheim}{}{Aufgaben: 
+  \cventry{04/2016 -- 06/2016}{Berufspraktikum}{FH OÖ}{Wels}{}{Semi-Autonome Detektion und Manipulation von Geschicklichkeitsaufgaben bei Rettungsrobotern}
+  \cventry{02/2011 -- 09/2013}{Vollzeit: Monteur im Sondermaschinenbau}{Inocon}{Attnang-Puchheim}{}{Aufgaben: 
   	\begin{itemize}
   		\setlength{\itemindent}{.5cm}
   \item{Projektleitung mech. Montage von Sondermaschinen}
@@ -101,20 +103,29 @@
   \section{Zivildienst}
   \cventry{05/2010 -- 01/2011}{Zivildienst}{Lebenshilfe OÖ - Tagesheimstätte}{Gmunden}{}{}
   \section{Technische Kenntnisse}
-  \cvcomputer{\textsc{Matlab} \& Simulink}{\grade{4} \tab \textit{sehr gute Kenntnisse}}{Mathematica}{\grade{3} \tab \textit{gute Kenntnisse}}
-  \cvcomputer{Microsoft Office}{\grade{3} \tab \textit{gute Kenntnisse}}{TeXstudio}{\grade{3} \tab \textit{gute Kenntnisse}}
-  \cvcomputer{Visual Studio IDE}{\grade{3} \tab \textit{gute Kenntnisse}}{Spyder IDE}{\grade{3} \tab \textit{gute Kenntnisse}}
-  \cvcomputer{GitHub}{\grade{2} \tab \textit{Grundkenntnisse}}{SVN}{\grade{1} \tab \textit{Grundkenntnisse}}
-  \cvcomputer{NI Vision Assistant}{\grade{1} \tab \textit{Grundkenntnisse}}{ROS Framework}{\grade{1} \tab \textit{Grundkenntnisse}}
+  \subsection{Programme}
+  \cvline{\grade{4}}{\textsc{Matlab} \& Simulink \hfill\textit{sehr gute Kenntnisse}}
+  \cvline{\grade{3}}{Spyder IDE, Mathematica, Microsoft Office, TeXstudio \hfill\textit{gute Kenntnisse}}
+  \cvline{\grade{2}}{GitHub \hfill\textit{Kenntnisse}}
+  \cvline{\grade{1}}{ROS Framework, NI Vision Assistant, SVN \hfill\textit{Grundkenntnisse}}
+%  \cvcomputer{\textsc{Matlab} \& Simulink}{\grade{4} \tab \textit{sehr gute Kenntnisse}}{Mathematica}{\grade{3} \tab \textit{gute Kenntnisse}}
+%  \cvcomputer{Microsoft Office}{\grade{3} \tab \textit{gute Kenntnisse}}{TeXstudio}{\grade{3} \tab \textit{gute Kenntnisse}}
+%  \cvcomputer{Visual Studio IDE}{\grade{3} \tab \textit{gute Kenntnisse}}{Spyder IDE}{\grade{3} \tab \textit{gute Kenntnisse}}
+%  \cvcomputer{GitHub}{\grade{2} \tab \textit{Grundkenntnisse}}{SVN}{\grade{1} \tab \textit{Grundkenntnisse}}
+%  \cvcomputer{NI Vision Assistant}{\grade{1} \tab \textit{Grundkenntnisse}}{ROS Framework}{\grade{1} \tab \textit{Grundkenntnisse}}
   \subsection{Programmiersprachen}
-  \cvcomputer{C\#}{\grade{4} \tab \textit{sehr gute Kenntnisse}}{Java}{\grade{3} \tab \textit{gute Kenntnisse}}
-  \cvcomputer{Python}{\grade{3} \tab \textit{gute Kenntnisse}}{Javascript}{\grade{3} \tab \textit{gute Kenntnisse}}
-  \cvcomputer{Assembler, C}{\grade{1} \tab \textit{Grundkenntnisse}}{Sprachen nach IEC 61131-3}{\grade{2} \tab \textit{Grundkenntnisse}}
+  \cvline{\grade{4}}{C\#}% \hfill\textit{sehr gute Kenntnisse}}
+  \cvline{\grade{3}}{Python, Java, Javascript, \LaTeX}% \hfill\textit{gute Kenntnisse}}
+  \cvline{\grade{2}}{Sprachen nach IEC 61131-3}% \hfill\textit{Kenntnisse}}
+  \cvline{\grade{1}}{Assembler, C}% \hfill\textit{Grundkenntnisse}}
+%  \cvcomputer{C\#}{\grade{4} \tab \textit{sehr gute Kenntnisse}}{Java}{\grade{3} \tab \textit{gute Kenntnisse}}
+%  \cvcomputer{Python}{\grade{3} \tab \textit{gute Kenntnisse}}{Javascript}{\grade{3} \tab \textit{gute Kenntnisse}}
+%  \cvcomputer{Assembler, C}{\grade{1} \tab \textit{Grundkenntnisse}}{Sprachen nach IEC 61131-3}{\grade{2} \tab \textit{Grundkenntnisse}}
   
   \section{Sprachkenntnisse}
 %  \cvlanguage{Deutsch}{Muttersprache}{}
-  \cvlanguage{Deutsch}{\grade{5} \tab \textit{Muttersprache}}{}
-  \cvlanguage{Englisch}{\grade{4}\tab \textit{fließend in Wort und Schrift}}{}{\begin{itemize}
+  \cvlanguage{\grade{5}}{Deutsch}{Muttersprache}
+  \cvlanguage{\grade{4}}{Englisch}{fließend in Wort und Schrift}{\begin{itemize}
   		\setlength{\itemindent}{4cm}
   		\item Schulunterricht und FH Lehrveranstaltungen
   		\item Auslandssemester in New York, USA
@@ -131,7 +142,7 @@
 	}
   \section{Auszeichnungen}
   \cventry{06/2015}{Marshall Plan Scholarship}{Austrian Marshall Plan Foundation}{Wien}{}{}
-  \cventry{02/2017}{INNOVATIONaward}{FH OÖ}{Wels}{}{Kategorie: „Bestes Fächerübergreifendes Studentenprojekt“}
+  \cventry{02/2017}{Innovation Award}{FH OÖ}{Wels}{}{Kategorie: „Bestes Fächerübergreifendes Studentenprojekt“}
   \section{Hobbys und Interessen}
   \cvlistdoubleitem{Wandern/Bergsteigen}{Klettern}
   \cvlistdoubleitem{Wakeboarden}{Snowboarden}
