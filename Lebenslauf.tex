@@ -18,6 +18,8 @@
 %\definecolor{mycolor}{RGB}{255,51,76}
 \definecolor{frontColor}{rgb}{0.22,0.45,0.70}% light blue
 \definecolor{backColor}{RGB}{200,200,200}% grey
+\definecolor{grey}{RGB}{80,80,80}
+\definecolor{lightgrey}{RGB}{110,110,110}
 \usepackage{tikz}
 \newcommand{\grade}[1]{%
 	\begin{tikzpicture}
@@ -45,8 +47,8 @@
  	\parbox[t]{3mm}{\textbullet}\parbox[t]{10cm}{#1}\\[1.6mm]}
  
  %Die persönlichen Daten:
-\name{Jürgen}{Buchner}
-\title{Lebenslauf}
+\name{\textcolor{lightgrey}{Jürgen}}{\textcolor{grey}{Buchner}}
+\title{\textcolor{grey}{Lebenslauf}}
 \address{Kaiserschützenstraße 8}{4690 Schwanenstadt}
 \phone[mobile]{+43\,699\,17952841}
 \email{juergenbuchner@gmail.com}
@@ -93,7 +95,7 @@
   \cventry{04/2016 -- 06/2016}{Berufspraktikum}{FH OÖ}{Wels}{}{Semi-Autonome Detektion und Manipulation von Geschicklichkeitsaufgaben bei Rettungsrobotern}
   \cventry{02/2011 -- 09/2013}{Vollzeit: Monteur im Sondermaschinenbau}{Inocon}{Attnang-Puchheim}{}{Aufgaben: 
   	\begin{itemize}
-  		\setlength{\itemindent}{.5cm}
+  		%\setlength{\itemindent}{.5cm}
   \item{Projektleitung mech. Montage von Sondermaschinen}
   \item{Fertigung von Schweißkonstruktionen }
   \item{Aufbau von mechanischen Komponenten } 
@@ -129,19 +131,23 @@
 %  \cvlanguage{Deutsch}{Muttersprache}{}
   \cvlanguage{\grade{5}}{Deutsch}{Muttersprache}
   \cvlanguage{\grade{4}}{Englisch}{fließend in Wort und Schrift}{\begin{itemize}
-  		\setlength{\itemindent}{4cm}
+  		%\setlength{\itemindent}{4cm}
+  		\setlength{\itemindent}{3.5cm}
   		\item Schulunterricht und FH Lehrveranstaltungen
   		\item Auslandssemester in New York, USA
   	\end{itemize}
   }
-  \section{Führungsqualitäten}
-  \cventry{10/2013 -- 09/2018}{Jahrgangssprecher}{FH OÖ}{Wels}{}{
-  	\begin{itemize}
-  		\setlength{\itemindent}{.5cm}
-  	\item Organisation von Prüfungsterminen und Terminverschiebungen
-  	\item Teilnahme an LVA Evaluierungsgesprächen mit dem Dekan
-  	\item Teilnahme an Seminaren zur Verbesserung des Automatisierungstechnik Curriculums mit Professoren und Interessenvertretern aus der Wirtschaft
+\section{Führungsqualitäten}
+\cventry{10/2013 -- 09/2018}{Jahrgangssprecher}{FH OÖ}{Wels}{}{
+	%\cvitem{}{
+	\begin{itemize}
+		%\setlength{\itemindent}{.5cm}
+	\item Organisation von Prüfungsterminen und Terminverschiebungen
+	\item Teilnahme an LVA Evaluierungsgesprächen mit dem Dekan
+	\item Teilnahme an Seminaren zur Verbesserung des Automatisierungstechnik Curriculums
+		mit Professoren und Interessenvertretern aus der Wirtschaft
 	\end{itemize}
+%}
 	}
   \section{Auszeichnungen}
   \cventry{06/2015}{Marshall Plan Scholarship}{Austrian Marshall Plan Foundation}{Wien}{}{}
