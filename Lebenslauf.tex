@@ -49,7 +49,9 @@
  %Die persönlichen Daten:
 \name{\textcolor{lightgrey}{Jürgen}}{\textcolor{grey}{Buchner}}
 \title{\textcolor{grey}{Lebenslauf}}
-\address{Kaiserschützenstraße 8}{4690 Schwanenstadt}
+\newcommand{\street}{Mühlfeldstraße 16}
+\newcommand{\city}{4690 Schwanenstadt}
+\address{\street}{\city}
 \phone[mobile]{+43\,699\,17952841}
 \email{juergenbuchner@gmail.com}
 %\homepage{www.meine-homepage.de}
@@ -60,15 +62,14 @@
 %\extrainfo{Hier können extra Informaitonen stehen.}
 \photo[3cm]{foto}  %Die Dateiendung wird weggelassen.
 %\quote{"Hier kann mein Lebensmotto oder ein Zitat stehen."}
- 
 \begin{document}
   \makecvtitle
   \vspace*{-5mm}
   \section{Persönliche Daten}
   \cvline{Geburtstag:}{20.10.1990}
   \cvline{Geburtsort:}{Gmunden}
-  \cvline{Anschrift:}{Kaiserschützenstraße 8}
-  \cvline{}{4690 Schwanenstadt}
+  \cvline{Anschrift:}{\street}
+  \cvline{}{\city}
  
   \section{Ausbildung}
   \cventry{10/2016 -- 09/2018}{Master Studium Automatisierungstechnik}{FH OÖ}{Wels}{}{Schwerpunkt: Industrielle Informatik}
